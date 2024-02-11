@@ -1,6 +1,7 @@
 from . import views
 from .models import Movie
 from django.shortcuts import render
+from django.http import JsonResponse
 
 # HINT: Create a view to provide movie recommendations list for the HTML template
 
