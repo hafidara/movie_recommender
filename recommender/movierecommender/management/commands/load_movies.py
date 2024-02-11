@@ -40,5 +40,4 @@ class Command(BaseCommand):
             # Save movie object
             movie.save()
             print(f"Movie: {imdb_id}, {original_title} saved...")
-
 # python manage.py load_movies --path movies.csv
